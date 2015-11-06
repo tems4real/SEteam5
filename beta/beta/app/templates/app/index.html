@@ -2,7 +2,8 @@
 
 {% block content %}
 
-<h2>Polls.</h2>
+<h2>Howard's Computer Science</h2>
+<h3>Events happening today! </h3>
 <br/>
 
 {% if latest_poll_list %}
@@ -18,7 +19,7 @@
     </tbody>
 </table>
 {% else %}
-<p>No polls available.</p>
+<p>No events today.</p>
 <br />
 <p>You can add a set of sample polls.</p>
 <form action="/seed" method="post">
