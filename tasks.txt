@@ -1,9 +1,11 @@
 """task assingment:
+We need to add a calendar to the first page.
+Are we going to do a create an account option or just give everyone there login or password.
 Oreoluwa:
 Travon:
 Elyon:
 Morgan:
 Jesse:
 Sibongile:
-
+Allee:
 """
