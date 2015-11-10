@@ -1,6 +1,7 @@
 """task assingment:
 We need to add a calendar to the first page.
-Are we going to do a create an account option or just give everyone there login or password.
+Push Notification feature when people click on events?
+Are we going to do a create an account option or just give everyone there login or password?
 Oreoluwa:
 Travon:
 Elyon:
