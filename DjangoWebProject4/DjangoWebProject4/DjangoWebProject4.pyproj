@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <Name>DjangoWebProject4</Name>
+    <RootNamespace>DjangoWebProject4</RootNamespace>
+    <InterpreterId>{bdf30525-6e34-4707-b6dc-905aa1bdbc68}</InterpreterId>
+    <InterpreterVersion>2.7</InterpreterVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>8b742c5b-dedd-4eae-9dec-06f7663743a4</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <ProjectTypeGuids>{5F0BE9CA-D677-4A4D-8806-6076C0FAAD37};{349c5851-65df-11da-9384-00065b846f21};{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <StartupFile>manage.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <LaunchProvider>Django launcher</LaunchProvider>
+    <OutputPath>.</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="DjangoWebProject4\runtests.py" />
+    <Compile Include="app\schedule\admin.py" />
+    <Compile Include="app\schedule\conf\settings.py" />
+    <Compile Include="app\schedule\conf\__init__.py" />
+    <Compile Include="app\schedule\feeds\atom.py" />
+    <Compile Include="app\schedule\feeds\ical.py" />
+    <Compile Include="app\schedule\feeds\__init__.py" />
+    <Compile Include="app\schedule\forms.py" />
+    <Compile Include="app\schedule\management\commands\load_example_data.py" />
+    <Compile Include="app\schedule\management\commands\load_sample_data.py" />
+    <Compile Include="app\schedule\management\commands\__init__.py" />
+    <Compile Include="app\schedule\management\__init__.py" />
+    <Compile Include="app\schedule\migrations\0001_initial.py" />
+    <Compile Include="app\schedule\migrations\0002_event_color_event.py" />
+    <Compile Include="app\schedule\migrations\__init__.py" />
+    <Compile Include="app\schedule\models\calendars.py" />
+    <Compile Include="app\schedule\models\events.py" />
+    <Compile Include="app\schedule\models\rules.py" />
+    <Compile Include="app\schedule\models\__init__.py" />
+    <Compile Include="app\schedule\periods.py" />
+    <Compile Include="app\schedule\signals.py" />
+    <Compile Include="app\schedule\templatetags\scheduletags.py" />
+    <Compile Include="app\schedule\templatetags\__init__.py" />
+    <Compile Include="app\schedule\urls.py" />
+    <Compile Include="app\schedule\utils.py" />
+    <Compile Include="app\schedule\views.py" />
+    <Compile Include="app\schedule\widgets.py" />
+    <Compile Include="app\schedule\__init__.py" />
+    <Compile Include="DjangoWebProject4\setup.py" />
+    <Compile Include="manage.py" />
+    <Compile Include="DjangoWebProject4\__init__.py" />
+    <Compile Include="DjangoWebProject4\settings.py" />
+    <Compile Include="DjangoWebProject4\wsgi.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="app\" />
+    <Folder Include="app\static\" />
+    <Folder Include="app\static\app\" />
+    <Folder Include="app\static\app\content\" />
+    <Folder Include="app\static\app\fonts\" />
+    <Folder Include="app\static\app\scripts\" />
+    <Folder Include="DjangoWebProject4\" />
+    <Folder Include="app\schedule\" />
+    <Folder Include="app\schedule\conf\" />
+    <Folder Include="app\schedule\feeds\" />
+    <Folder Include="app\schedule\locale\" />
+    <Folder Include="app\schedule\locale\de\" />
+    <Folder Include="app\schedule\locale\de\LC_MESSAGES\" />
+    <Folder Include="app\schedule\locale\en\" />
+    <Folder Include="app\schedule\locale\en\LC_MESSAGES\" />
+    <Folder Include="app\schedule\locale\es\" />
+    <Folder Include="app\schedule\locale\es\LC_MESSAGES\" />
+    <Folder Include="app\schedule\locale\fr\" />
+    <Folder Include="app\schedule\locale\fr\LC_MESSAGES\" />
+    <Folder Include="app\schedule\locale\it\" />
+    <Folder Include="app\schedule\locale\it\LC_MESSAGES\" />
+    <Folder Include="app\schedule\locale\pt_BR\" />
+    <Folder Include="app\schedule\locale\pt_BR\LC_MESSAGES\" />
+    <Folder Include="app\schedule\locale\ru\" />
+    <Folder Include="app\schedule\locale\ru\LC_MESSAGES\" />
+    <Folder Include="app\schedule\locale\zh\" />
+    <Folder Include="app\schedule\locale\zh\LC_MESSAGES\" />
+    <Folder Include="app\schedule\management\" />
+    <Folder Include="app\schedule\management\commands\" />
+    <Folder Include="app\schedule\migrations\" />
+    <Folder Include="app\schedule\models\" />
+    <Folder Include="app\schedule\static\" />
+    <Folder Include="app\schedule\static\images\" />
+    <Folder Include="app\schedule\templates\" />
+    <Folder Include="app\schedule\templates\profiles\" />
+    <Folder Include="app\schedule\templates\schedule\" />
+    <Folder Include="app\schedule\templatetags\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="DjangoWebProject4\.coveragerc" />
+    <Content Include="DjangoWebProject4\.travis.yml" />
+    <Content Include="DjangoWebProject4\MANIFEST.in" />
+    <Content Include="DjangoWebProject4\README.md" />
+    <Content Include="DjangoWebProject4\requirements.txt" />
+    <Content Include="app\schedule\locale\de\LC_MESSAGES\django.mo" />
+    <Content Include="app\schedule\locale\de\LC_MESSAGES\django.po" />
+    <Content Include="app\schedule\locale\en\LC_MESSAGES\django.mo" />
+    <Content Include="app\schedule\locale\en\LC_MESSAGES\django.po" />
+    <Content Include="app\schedule\locale\es\LC_MESSAGES\django.mo" />
+    <Content Include="app\schedule\locale\es\LC_MESSAGES\django.po" />
+    <Content Include="app\schedule\locale\fr\LC_MESSAGES\django.mo" />
+    <Content Include="app\schedule\locale\fr\LC_MESSAGES\django.po" />
+    <Content Include="app\schedule\locale\it\LC_MESSAGES\django.mo" />
+    <Content Include="app\schedule\locale\it\LC_MESSAGES\django.po" />
+    <Content Include="app\schedule\locale\pt_BR\LC_MESSAGES\django.mo" />
+    <Content Include="app\schedule\locale\pt_BR\LC_MESSAGES\django.po" />
+    <Content Include="app\schedule\locale\ru\LC_MESSAGES\django.mo" />
+    <Content Include="app\schedule\locale\ru\LC_MESSAGES\django.po" />
+    <Content Include="app\schedule\locale\zh\LC_MESSAGES\django.mo" />
+    <Content Include="app\schedule\locale\zh\LC_MESSAGES\django.po" />
+    <Content Include="app\schedule\schedule.db" />
+    <Content Include="app\schedule\static\images\222222_11x11_icon_arrows_leftright.gif" />
+    <Content Include="app\schedule\static\images\222222_11x11_icon_arrows_updown.gif" />
+    <Content Include="app\schedule\static\images\222222_11x11_icon_close.gif" />
+    <Content Include="app\schedule\static\images\222222_11x11_icon_doc.gif" />
+    <Content Include="app\schedule\static\images\222222_11x11_icon_folder_closed.gif" />
+    <Content Include="app\schedule\static\images\222222_11x11_icon_folder_open.gif" />
+    <Content Include="app\schedule\static\images\222222_11x11_icon_minus.gif" />
+    <Content Include="app\schedule\static\images\222222_11x11_icon_plus.gif" />
+    <Content Include="app\schedule\static\images\222222_11x11_icon_resize_se.gif" />
+    <Content Include="app\schedule\static\images\222222_35x9_colorpicker_indicator.gif.gif" />
+    <Content Include="app\schedule\static\images\222222_7x7_arrow_down.gif" />
+    <Content Include="app\schedule\static\images\222222_7x7_arrow_left.gif" />
+    <Content Include="app\schedule\static\images\222222_7x7_arrow_right.gif" />
+    <Content Include="app\schedule\static\images\222222_7x7_arrow_up.gif" />
+    <Content Include="app\schedule\static\images\888888_11x11_icon_arrows_leftright.gif" />
+    <Content Include="app\schedule\static\images\888888_11x11_icon_arrows_updown.gif" />
+    <Content Include="app\schedule\static\images\888888_11x11_icon_close.gif" />
+    <Content Include="app\schedule\static\images\888888_11x11_icon_doc.gif" />
+    <Content Include="app\schedule\static\images\888888_11x11_icon_folder_closed.gif" />
+    <Content Include="app\schedule\static\images\888888_11x11_icon_folder_open.gif" />
+    <Content Include="app\schedule\static\images\888888_11x11_icon_minus.gif" />
+    <Content Include="app\schedule\static\images\888888_11x11_icon_plus.gif" />
+    <Content Include="app\schedule\static\images\888888_7x7_arrow_down.gif" />
+    <Content Include="app\schedule\static\images\888888_7x7_arrow_left.gif" />
+    <Content Include="app\schedule\static\images\888888_7x7_arrow_right.gif" />
+    <Content Include="app\schedule\static\images\888888_7x7_arrow_up.gif" />
+    <Content Include="app\schedule\static\images\8ab9ff_40x100_textures_02_glass_50.png" />
+    <Content Include="app\schedule\static\images\d8d8d8_40x100_textures_02_glass_90.png" />
+    <Content Include="app\schedule\static\images\e0e0e0_40x100_textures_02_glass_80.png" />
+    <Content Include="app\schedule\static\images\f3f3f3_40x100_textures_01_flat_0.png" />
+    <Content Include="app\schedule\static\images\ffffff_11x11_icon_arrows_leftright.gif" />
+    <Content Include="app\schedule\static\images\ffffff_11x11_icon_arrows_updown.gif" />
+    <Content Include="app\schedule\static\images\ffffff_11x11_icon_close.gif" />
+    <Content Include="app\schedule\static\images\ffffff_11x11_icon_doc.gif" />
+    <Content Include="app\schedule\static\images\ffffff_11x11_icon_folder_closed.gif" />
+    <Content Include="app\schedule\static\images\ffffff_11x11_icon_folder_open.gif" />
+    <Content Include="app\schedule\static\images\ffffff_11x11_icon_minus.gif" />
+    <Content Include="app\schedule\static\images\ffffff_11x11_icon_plus.gif" />
+    <Content Include="app\schedule\static\images\ffffff_7x7_arrow_down.gif" />
+    <Content Include="app\schedule\static\images\ffffff_7x7_arrow_left.gif" />
+    <Content Include="app\schedule\static\images\ffffff_7x7_arrow_right.gif" />
+    <Content Include="app\schedule\static\images\ffffff_7x7_arrow_up.gif" />
+    <Content Include="app\schedule\static\images\ui-bg_flat_30_cccccc_40x100.png" />
+    <Content Include="app\schedule\static\images\ui-bg_flat_50_5c5c5c_40x100.png" />
+    <Content Include="app\schedule\static\images\ui-bg_glass_20_555555_1x400.png" />
+    <Content Include="app\schedule\static\images\ui-bg_glass_40_0078a3_1x400.png" />
+    <Content Include="app\schedule\static\images\ui-bg_glass_40_ffc73d_1x400.png" />
+    <Content Include="app\schedule\static\images\ui-bg_gloss-wave_25_333333_500x100.png" />
+    <Content Include="app\schedule\static\images\ui-bg_highlight-soft_80_eeeeee_1x100.png" />
+    <Content Include="app\schedule\static\images\ui-bg_inset-soft_25_000000_1x100.png" />
+    <Content Include="app\schedule\static\images\ui-bg_inset-soft_30_f58400_1x100.png" />
+    <Content Include="app\schedule\static\images\ui-icons_222222_256x240.png" />
+    <Content Include="app\schedule\static\images\ui-icons_4b8e0b_256x240.png" />
+    <Content Include="app\schedule\static\images\ui-icons_a83300_256x240.png" />
+    <Content Include="app\schedule\static\images\ui-icons_cccccc_256x240.png" />
+    <Content Include="app\schedule\static\images\ui-icons_ffffff_256x240.png" />
+    <Content Include="app\schedule\static\schedule.css" />
+    <Content Include="app\schedule\templates\base.html" />
+    <Content Include="app\schedule\templates\fullcalendar.html" />
+    <Content Include="app\schedule\templates\profiles\schedule.html" />
+    <Content Include="app\schedule\templates\schedule\calendar.html" />
+    <Content Include="app\schedule\templates\schedule\calendar_compact_month.html" />
+    <Content Include="app\schedule\templates\schedule\calendar_day.html" />
+    <Content Include="app\schedule\templates\schedule\calendar_list.html" />
+    <Content Include="app\schedule\templates\schedule\calendar_month.html" />
+    <Content Include="app\schedule\templates\schedule\calendar_tri_month.html" />
+    <Content Include="app\schedule\templates\schedule\calendar_week.html" />
+    <Content Include="app\schedule\templates\schedule\calendar_year.html" />
+    <Content Include="app\schedule\templates\schedule\cancel_occurrence.html" />
+    <Content Include="app\schedule\templates\schedule\create_event.html" />
+    <Content Include="app\schedule\templates\schedule\delete_event.html" />
+    <Content Include="app\schedule\templates\schedule\edit_occurrence.html" />
+    <Content Include="app\schedule\templates\schedule\event.html" />
+    <Content Include="app\schedule\templates\schedule\occurrence.html" />
+    <Content Include="app\schedule\templates\schedule\_create_event_options.html" />
+    <Content Include="app\schedule\templates\schedule\_daily_table.html" />
+    <Content Include="app\schedule\templates\schedule\_day_cell.html" />
+    <Content Include="app\schedule\templates\schedule\_day_cell_big.html" />
+    <Content Include="app\schedule\templates\schedule\_detail.html" />
+    <Content Include="app\schedule\templates\schedule\_dialogs.html" />
+    <Content Include="app\schedule\templates\schedule\_event_options.html" />
+    <Content Include="app\schedule\templates\schedule\_event_title.html" />
+    <Content Include="app\schedule\templates\schedule\_month_table.html" />
+    <Content Include="app\schedule\templates\schedule\_prevnext.html" />
+    <Content Include="app\schedule\templates\site_base.html" />
+    <Content Include="requirements.txt" />
+    <Content Include="db.sqlite3" />
+    <Content Include="app\static\app\content\bootstrap.css" />
+    <Content Include="app\static\app\content\bootstrap.min.css" />
+    <Content Include="app\static\app\content\site.css" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="app\static\app\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="app\static\app\scripts\bootstrap.js" />
+    <Content Include="app\static\app\scripts\bootstrap.min.js" />
+    <Content Include="app\static\app\scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="app\static\app\scripts\jquery-1.10.2.js" />
+    <Content Include="app\static\app\scripts\jquery-1.10.2.min.js" />
+    <Content Include="app\static\app\scripts\jquery-1.10.2.min.map" />
+    <Content Include="app\static\app\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="app\static\app\scripts\jquery.validate.js" />
+    <Content Include="app\static\app\scripts\jquery.validate.min.js" />
+    <Content Include="app\static\app\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="app\static\app\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="app\static\app\scripts\modernizr-2.6.2.js" />
+    <Content Include="app\static\app\scripts\respond.js" />
+    <Content Include="app\static\app\scripts\respond.min.js" />
+    <Content Include="app\static\app\scripts\_references.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <Interpreter Include="env\">
+      <Id>{bdf30525-6e34-4707-b6dc-905aa1bdbc68}</Id>
+      <BaseInterpreter>{2af0f10d-7135-4994-9156-5d01c9c11b7e}</BaseInterpreter>
+      <Version>2.7</Version>
+      <Description>env (Python 2.7)</Description>
+      <InterpreterPath>Scripts\python.exe</InterpreterPath>
+      <WindowsInterpreterPath>Scripts\pythonw.exe</WindowsInterpreterPath>
+      <LibraryPath>Lib\</LibraryPath>
+      <PathEnvironmentVariable>PYTHONPATH</PathEnvironmentVariable>
+      <Architecture>X86</Architecture>
+    </Interpreter>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.Django.targets" />
+  <!-- Specify pre- and post-build commands in the BeforeBuild and 
+       AfterBuild targets below. -->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <AutoAssignPort>True</AutoAssignPort>
+          <UseCustomServer>True</UseCustomServer>
+          <CustomServerUrl>http://localhost</CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}" User="">
+        <WebProjectProperties>
+          <StartPageUrl>
+          </StartPageUrl>
+          <StartAction>CurrentPage</StartAction>
+          <AspNetDebugging>True</AspNetDebugging>
+          <SilverlightDebugging>False</SilverlightDebugging>
+          <NativeDebugging>False</NativeDebugging>
+          <SQLDebugging>False</SQLDebugging>
+          <ExternalProgram>
+          </ExternalProgram>
+          <StartExternalURL>
+          </StartExternalURL>
+          <StartCmdLineArguments>
+          </StartCmdLineArguments>
+          <StartWorkingDirectory>
+          </StartWorkingDirectory>
+          <EnableENC>False</EnableENC>
+          <AlwaysStartWebServerOnDebug>False</AlwaysStartWebServerOnDebug>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
