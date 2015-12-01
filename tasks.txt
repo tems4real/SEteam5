@@ -1,6 +1,7 @@
 """task assingment:
 We need to add a calendar to the first page.
 https://github.com/llazzaro/django-scheduler
+https://github.com/llazzaro/django-scheduler-sample
 Push Notification feature when people click on events?
 Are we going to do a create an account option or just give everyone there login or password?
 Oreoluwa:
