@@ -55,6 +55,7 @@
     <Folder Include="beta\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\templates\app\signup.html" />
     <Content Include="db.sqlite3" />
     <Content Include="requirements.txt" />
     <Content Include="app\samples.json" />

@@ -1,4 +1,4 @@
-"""
+﻿"""
 Definition of views.
 """
 
@@ -12,6 +12,9 @@ from django.template import RequestContext
 from django.utils import timezone
 from django.views.generic import ListView, DetailView
 from os import path
+from django.contrib.auth.forms import UserCreationForm
+from django.core.urlresolvers import reverse_lazy
+from django.views.generic import CreateView
 
 import json
 
@@ -111,3 +114,8 @@ def seed(request):
             choice.save()
 
     return HttpResponseRedirect(reverse('app:home'))
+
+class SignUpView(CreateView):
+    form_class = UserCreationForm
+    template_name = "app/signup.html"
+    success_url = reverse_lazy('app_home')

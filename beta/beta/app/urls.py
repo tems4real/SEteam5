@@ -1,10 +1,11 @@
-"""
+﻿"""
 Definition of urls for polls viewing and voting.
 """
 
-from django.conf.urls import patterns, url
+from django.conf.urls import patterns, url, include
 from app.models import Poll
 from app.views import PollListView, PollDetailView, PollResultsView
+from .views import SignUpView
 
 urlpatterns = patterns('',
     url(r'^$',
@@ -22,4 +23,9 @@ urlpatterns = patterns('',
             template_name='app/results.html'),
         name='results'),
     url(r'^(?P<poll_id>\d+)/vote/$', 'app.views.vote', name='vote'),
+    #url(r'^home$', 'home', name='app_home'),
+    url(r'^signup$', 
+        SignUpView.as_view(
+            template_name= 'app/signup.html'), 
+        name='signup'),
 )

@@ -1,4 +1,4 @@
-"""
+﻿"""
 Django settings for beta project.
 """
 
@@ -130,6 +130,7 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'crispy_forms',
     'app',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
