@@ -1,4 +1,4 @@
-"""
+﻿"""
 Django settings for beta project.
 """
 
@@ -88,12 +88,14 @@ STATICFILES_DIRS = (
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
     'django.contrib.staticfiles.finders.AppDirectoriesFinder',
+    'djangobower.finders.BowerFinder',
 #    'django.contrib.staticfiles.finders.DefaultStorageFinder',
 )
 
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = 'n(bd1f1c%e8=_xad02x5qtfn%wgwpi492e$8_erx+d)!tpeoim'
 
+BOWER_COMPONENTS_ROOT = '/app/components/'
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
@@ -112,7 +114,6 @@ MIDDLEWARE_CLASSES = (
 )
 
 ROOT_URLCONF = 'beta.urls'
-
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'beta.wsgi.application'
 
@@ -123,6 +124,10 @@ TEMPLATE_DIRS = (
     # Don't forget to use absolute paths, not relative paths.
 )
 
+TEMPLATE_CONTEXT_PROCESSORS = (
+    "django.core.context_processors.request",
+)
+
 INSTALLED_APPS = (
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -130,11 +135,18 @@ INSTALLED_APPS = (
     'django.contrib.sites',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'schedule',
+    'djangobower',
     'app',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
+)
+
+BOWER_INSTALLED_APPS = (
+     'jquery',
+     'bootstrap',
 )
 
 # A sample logging configuration. The only tangible logging
