@@ -61,6 +61,7 @@
     <Content Include="app\templates\app\500.html" />
     <Content Include="app\templates\app\base.html" />
     <Content Include="db.sqlite3" />
+    <Content Include="ieee-templates.docx" />
     <Content Include="requirements.txt" />
     <Content Include="app\samples.json" />
     <Content Include="app\templates\app\details.html" />
