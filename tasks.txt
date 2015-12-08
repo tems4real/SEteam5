@@ -4,7 +4,8 @@ https://github.com/llazzaro/django-scheduler
 https://github.com/llazzaro/django-scheduler-sample
 https://github.com/bitmazk/django-calendarium 
 https://github.com/thauber/django-schedule
-Push Notification feature when people click on events?
+Push Notification feature when people click on events:
+https://pypi.python.org/pypi/django-push-notifications/1.2.1
 Are we going to do a create an account option or just give everyone there login or password?
 Oreoluwa:
 Travon:
