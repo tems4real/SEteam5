@@ -95,8 +95,10 @@ STATICFILES_FINDERS = (
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = 'n(bd1f1c%e8=_xad02x5qtfn%wgwpi492e$8_erx+d)!tpeoim'
 
-BOWER_COMPONENTS_ROOT = '/app/components/'
+BOWER_COMPONENTS_ROOT = '/PROJECT_ROOT/components/'
 # List of callables that know how to import templates from various sources.
+BOWER_PATH = '/usr/bin/bower'
+
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
@@ -149,6 +151,7 @@ INSTALLED_APPS = (
 BOWER_INSTALLED_APPS = (
      'jquery',
      'bootstrap',
+     'underscore',
 )
 
 # A sample logging configuration. The only tangible logging
