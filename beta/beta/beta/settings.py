@@ -78,6 +78,7 @@ STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
+    # os.path.join(PROJECT_PATH, 'site_media/'),
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -95,7 +96,8 @@ STATICFILES_FINDERS = (
 # Make this unique, and don't share it with anybody.
 SECRET_KEY = 'n(bd1f1c%e8=_xad02x5qtfn%wgwpi492e$8_erx+d)!tpeoim'
 
-BOWER_COMPONENTS_ROOT = '/PROJECT_ROOT/components/'
+BOWER_COMPONENTS_ROOT = path.join(PROJECT_ROOT, 'components').replace('\\', '/')
+#'/PROJECT_ROOT/components/'
 # List of callables that know how to import templates from various sources.
 BOWER_PATH = '/usr/bin/bower'
 
@@ -129,6 +131,9 @@ TEMPLATE_DIRS = (
 TEMPLATE_CONTEXT_PROCESSORS = (
     'django.contrib.auth.context_processors.auth',
     'django.core.context_processors.request',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.media',
+    'django.core.context_processors.request',
 )
 
 
@@ -142,17 +147,14 @@ INSTALLED_APPS = (
     'schedule',
     'djangobower',
     'app',
+    'debug_toolbar',
+    'django.contrib.humanize',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
 
-BOWER_INSTALLED_APPS = (
-     'jquery',
-     'bootstrap',
-     'underscore',
-)
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
@@ -183,5 +185,10 @@ LOGGING = {
     }
 }
 
+BOWER_INSTALLED_APPS = (
+     'jquery',
+     'bootstrap',
+     'underscore',
+)
 # Specify the default test runner.
 TEST_RUNNER = 'django.test.runner.DiscoverRunner'
