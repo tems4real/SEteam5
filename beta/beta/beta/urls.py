@@ -1,4 +1,4 @@
-"""
+﻿"""
 Definition of urls for beta.
 """
 

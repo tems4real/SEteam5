@@ -95,6 +95,12 @@ STATICFILES_FINDERS = (
 SECRET_KEY = 'n(bd1f1c%e8=_xad02x5qtfn%wgwpi492e$8_erx+d)!tpeoim'
 
 # List of callables that know how to import templates from various sources.
+
+#ADDED
+TEMPLATE_CONTEXT_PROCESSORS = (
+'django.contrib.auth.context_processors.auth', #added 
+'django.core.context_processors.request',
+)
 TEMPLATE_LOADERS = (
     'django.template.loaders.filesystem.Loader',
     'django.template.loaders.app_directories.Loader',
@@ -131,6 +137,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
+    'calendarium', #added
+    'filer', #added
     'app',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
