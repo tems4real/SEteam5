@@ -1,0 +1,285 @@
+﻿
+2015-11-30T14:46:48: Start analysis
+2015-11-30T14:46:48: [WARNING] Library was set explicitly - skipping path detection
+2015-11-30T14:46:48: IncludeModulesFromModulePath = win32com
+2015-11-30T14:46:48: Deleting 0 files
+2015-11-30T14:46:48: Scraping builtin modules
+2015-11-30T14:46:48: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-11-30T14:46:48: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-11-30T14:46:48: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-11-30T14:47:42: Start analysis
+2015-11-30T14:47:42: [WARNING] Library was set explicitly - skipping path detection
+2015-11-30T14:47:42: IncludeModulesFromModulePath = win32com
+2015-11-30T14:47:42: Deleting 0 files
+2015-11-30T14:47:42: Scraping builtin modules
+2015-11-30T14:47:42: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-11-30T14:47:42: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-11-30T14:47:42: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-11-30T14:47:51: Start analysis
+2015-11-30T14:47:51: [WARNING] Library was set explicitly - skipping path detection
+2015-11-30T14:47:51: IncludeModulesFromModulePath = win32com
+2015-11-30T14:47:51: Deleting 0 files
+2015-11-30T14:47:51: Scraping builtin modules
+2015-11-30T14:47:51: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-11-30T14:47:51: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-11-30T14:47:51: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-11-30T14:47:54: Start analysis
+2015-11-30T14:47:54: [WARNING] Library was set explicitly - skipping path detection
+2015-11-30T14:47:54: IncludeModulesFromModulePath = win32com
+2015-11-30T14:47:54: Deleting 0 files
+2015-11-30T14:47:54: Scraping builtin modules
+2015-11-30T14:47:54: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-11-30T14:47:54: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-11-30T14:47:54: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-11-30T14:47:57: Start analysis
+2015-11-30T14:47:57: [WARNING] Library was set explicitly - skipping path detection
+2015-11-30T14:47:57: IncludeModulesFromModulePath = win32com
+2015-11-30T14:47:57: Deleting 0 files
+2015-11-30T14:47:57: Scraping builtin modules
+2015-11-30T14:47:57: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-11-30T14:47:57: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-11-30T14:47:57: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-11-30T14:48:20: Start analysis
+2015-11-30T14:48:20: [WARNING] Library was set explicitly - skipping path detection
+2015-11-30T14:48:20: IncludeModulesFromModulePath = win32com
+2015-11-30T14:48:20: Deleting 0 files
+2015-11-30T14:48:20: Scraping builtin modules
+2015-11-30T14:48:20: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-11-30T14:48:20: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-11-30T14:48:20: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-11-30T14:48:20: Start analysis
+2015-11-30T14:48:20: [WARNING] Library was set explicitly - skipping path detection
+2015-11-30T14:48:20: IncludeModulesFromModulePath = win32com
+2015-11-30T14:48:20: Deleting 0 files
+2015-11-30T14:48:20: Scraping builtin modules
+2015-11-30T14:48:20: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-11-30T14:48:20: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-11-30T14:48:20: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-11-30T14:48:42: Start analysis
+2015-11-30T14:48:42: [WARNING] Library was set explicitly - skipping path detection
+2015-11-30T14:48:42: IncludeModulesFromModulePath = win32com
+2015-11-30T14:48:42: Deleting 0 files
+2015-11-30T14:48:42: Scraping builtin modules
+2015-11-30T14:48:42: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-11-30T14:48:42: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-11-30T14:48:42: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-11-30T14:58:54: Start analysis
+2015-11-30T14:58:54: [WARNING] Library was set explicitly - skipping path detection
+2015-11-30T14:58:54: IncludeModulesFromModulePath = win32com
+2015-11-30T14:58:54: Deleting 0 files
+2015-11-30T14:58:54: Scraping builtin modules
+2015-11-30T14:58:54: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-11-30T14:58:54: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-11-30T14:58:54: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-11-30T14:59:12: Start analysis
+2015-11-30T14:59:12: [WARNING] Library was set explicitly - skipping path detection
+2015-11-30T14:59:12: IncludeModulesFromModulePath = win32com
+2015-11-30T14:59:12: Deleting 0 files
+2015-11-30T14:59:12: Scraping builtin modules
+2015-11-30T14:59:12: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-11-30T14:59:12: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-11-30T14:59:12: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-11-30T14:59:13: Start analysis
+2015-11-30T14:59:13: [WARNING] Library was set explicitly - skipping path detection
+2015-11-30T14:59:13: IncludeModulesFromModulePath = win32com
+2015-11-30T14:59:13: Deleting 0 files
+2015-11-30T14:59:13: Scraping builtin modules
+2015-11-30T14:59:13: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-11-30T14:59:13: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-11-30T14:59:13: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-11-30T23:53:33: Start analysis
+2015-11-30T23:53:33: [WARNING] Library was set explicitly - skipping path detection
+2015-11-30T23:53:33: IncludeModulesFromModulePath = win32com
+2015-11-30T23:53:33: Deleting 0 files
+2015-11-30T23:53:33: Scraping builtin modules
+2015-11-30T23:53:33: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-11-30T23:53:33: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-11-30T23:53:33: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-12-01T10:14:42: Start analysis
+2015-12-01T10:14:42: [WARNING] Library was set explicitly - skipping path detection
+2015-12-01T10:14:42: IncludeModulesFromModulePath = win32com
+2015-12-01T10:14:42: Deleting 0 files
+2015-12-01T10:14:42: Scraping builtin modules
+2015-12-01T10:14:42: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-12-01T10:14:42: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-12-01T10:14:42: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-12-01T10:14:47: Start analysis
+2015-12-01T10:14:47: [WARNING] Library was set explicitly - skipping path detection
+2015-12-01T10:14:47: IncludeModulesFromModulePath = win32com
+2015-12-01T10:14:47: Deleting 0 files
+2015-12-01T10:14:47: Scraping builtin modules
+2015-12-01T10:14:47: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-12-01T10:14:47: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-12-01T10:14:47: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
+
+2015-12-01T10:15:26: Start analysis
+2015-12-01T10:15:26: [WARNING] Library was set explicitly - skipping path detection
+2015-12-01T10:15:26: IncludeModulesFromModulePath = win32com
+2015-12-01T10:15:26: Deleting 0 files
+2015-12-01T10:15:26: Scraping builtin modules
+2015-12-01T10:15:26: Command: C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\Scripts\python.exe "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\PythonScraper.py" C:\Users\allee\Source\Repos\SEteam5\DjangoWebProject4\DjangoWebProject4\env\.ptvs\ "C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\IDE\Extensions\Microsoft\Python Tools for Visual Studio\2.2\CompletionDB\\"
+2015-12-01T10:15:26: [ERROR] Failed to scrape builtin modules (Exit Code: -1073741515)
+2015-12-01T10:15:26: [ERROR] Analysis failed
+System.InvalidOperationException: Failed to scrape builtin modules
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Scrape>d__53.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<RunWorker>d__31.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.CompilerServices.TaskAwaiter.ThrowForNonSuccess(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.PythonTools.Analysis.PyLibAnalyzer.<Run>d__30.MoveNext()
