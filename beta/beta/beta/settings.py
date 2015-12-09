@@ -137,6 +137,8 @@ INSTALLED_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'crispy_forms',
+    'mptt',
+    'easy_thumbnails',
     'calendarium', #added
     'filer', #added
     'app',
