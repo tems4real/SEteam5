@@ -10,6 +10,7 @@ from app.forms import BootstrapAuthenticationForm
 admin.autodiscover()
 
 urlpatterns = patterns('',
+    url(r'', include('calendarium.urls')),
     url(r'^', include('app.urls', namespace="app")),
     url(r'^contact$', 'app.views.contact', name='contact'),
     url(r'^about', 'app.views.about', name='about'),

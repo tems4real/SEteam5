@@ -5,6 +5,8 @@ from django.conf.urls import patterns, url, include
 from app.models import Poll
 from app.views import PollListView, PollDetailView, PollResultsView
 from .views import SignUpView
+
+from django.conf.urls import patterns, url
 from calendarium.views import (
     CalendariumRedirectView,
     DayView,
@@ -19,11 +21,7 @@ from calendarium.views import (
     UpcomingEventsAjaxView,
     WeekView,
 )
-
-
-
 urlpatterns = patterns('',
-
     # event views
     url(r'^event/create/$',
         EventCreateView.as_view(),
@@ -55,7 +53,6 @@ urlpatterns = patterns('',
         r'^event/(?P<pk>\d+)/date/(?P<year>\d+)/(?P<month>\d+)/(?P<day>\d+)/delete/$',  # NOPEP8
         OccurrenceDeleteView.as_view(),
         name='calendar_occurrence_delete'),
-
     # calendar views
     url(r'^(?P<year>\d+)/(?P<month>\d+)/$',
         MonthView.as_view(),
@@ -92,6 +89,7 @@ urlpatterns = patterns('',
             template_name='app/results.html'),
         name='results'),
     url(r'^(?P<poll_id>\d+)/vote/$', 'app.views.vote', name='vote'),
+   
     #url(r'^home$', 'home', name='app_home'),
     url(r'^signup$', 
         SignUpView.as_view(
