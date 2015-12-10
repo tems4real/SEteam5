@@ -15,6 +15,7 @@ urlpatterns = patterns('',
     url(r'^contact$', 'app.views.contact', name='contact'),
     url(r'^about', 'app.views.about', name='about'),
     url(r'^seed', 'app.views.seed', name='seed'),
+    url(r'^', include('schedule.urls')),
     url(r'^login/$',
         'django.contrib.auth.views.login',
         {
