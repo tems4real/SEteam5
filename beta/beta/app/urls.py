@@ -2,10 +2,15 @@
 Definition of urls for polls viewing and voting.
 """
 
+from django.views.generic import TemplateView
 from django.conf.urls import patterns, url, include
 from app.models import Poll
 from app.views import PollListView, PollDetailView, PollResultsView
 from .views import SignUpView
+
+from django.contrib import admin
+
+admin.autodiscover()
 
 urlpatterns = patterns('',
     url(r'^$',
@@ -28,4 +33,13 @@ urlpatterns = patterns('',
         SignUpView.as_view(
             template_name= 'app/signup.html'), 
         name='signup'),
+    url(r'^fullcalendar/', TemplateView.as_view(template_name="app/fullcalendar.html"), name='fullcalendar'),
+    url(r'^schedule/', include('schedule.urls')),
+
+    # Uncomment the admin/doc line below and add 'django.contrib.admindocs'
+    # to INSTALLED_APPS to enable admin documentation:
+    url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+
+    # Uncomment the next line to enable the admin:
+    url(r'^admin/', include(admin.site.urls)),
 )

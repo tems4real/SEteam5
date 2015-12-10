@@ -4,8 +4,9 @@ Django settings for beta project.
 
 from os import path
 PROJECT_ROOT = path.dirname(path.abspath(path.dirname(__file__)))
+#PROJECT_PATH = os.path.realpath(os.path.dirname(__file__))
 
-BOWER_COMPONENTS_ROOT = PROJECT_ROOT + '/components/'
+#BOWER_COMPONENTS_ROOT = '/PROJECT_ROOT/components/'
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
@@ -80,6 +81,7 @@ STATIC_URL = '/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = (
+    #os.path.join(PROJECT_PATH, 'site_media/'),
     # Put strings here, like "/home/html/static" or "C:/www/django/static".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -100,6 +102,9 @@ SECRET_KEY = 'n(bd1f1c%e8=_xad02x5qtfn%wgwpi492e$8_erx+d)!tpeoim'
 TEMPLATE_CONTEXT_PROCESSORS = (
     "django.core.context_processors.request",
     'django.contrib.auth.context_processors.auth', #added 
+    'django.core.context_processors.debug',
+    'django.core.context_processors.i18n',
+    'django.core.context_processors.media',
 )
 # List of callables that know how to import templates from various sources.
 TEMPLATE_LOADERS = (
@@ -144,8 +149,10 @@ INSTALLED_APPS = (
     'djangobower',
     'schedule',
     'app',
+    'django.contrib.humanize',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
+    'debug_toolbar',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )

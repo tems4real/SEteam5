@@ -1,7 +1,8 @@
-"""
+﻿"""
 Definition of urls for beta.
 """
 
+from django.views.generic import TemplateView
 from datetime import datetime
 from django.conf.urls import patterns, include, url
 from django.contrib import admin
@@ -32,5 +33,12 @@ urlpatterns = patterns('',
             'next_page': '/',
         },
         name='logout'),
+    url(r'^fullcalendar/', TemplateView.as_view(template_name="app/fullcalendar.html"), name='fullcalendar'),
+    url(r'^schedule/', include('schedule.urls')),
+
+    # Uncomment the admin/doc line below and add 'django.contrib.admindocs'
+    # to INSTALLED_APPS to enable admin documentation:
+    url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
+
     url(r'^admin/', include(admin.site.urls)),
 )
