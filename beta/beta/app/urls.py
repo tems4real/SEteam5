@@ -8,6 +8,7 @@ from app.models import Poll
 from app.views import PollListView, PollDetailView, PollResultsView
 from .views import SignUpView
 
+
 from django.contrib import admin
 
 admin.autodiscover()

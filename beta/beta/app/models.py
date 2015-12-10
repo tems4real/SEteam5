@@ -1,9 +1,10 @@
-"""
+﻿"""
 Definition of models.
 """
 
 from django.db import models
 from django.db.models import Sum
+from django.contrib.auth.models import AbstractUser
 
 class Poll(models.Model):
     """A poll object for use in the application views and repository."""
@@ -32,3 +33,9 @@ class Choice(models.Model):
     def __unicode__(self):
         """Returns a string representation of a choice."""
         return self.text
+class CustomUser(AbstractUser):
+    mobile = models.CharField(max_length=8)
+    # if your additional field is a required field, just add it, don't forget to add 'email' field too.
+    REQUIRED_FIELDS = ['email', 'points']
+
+

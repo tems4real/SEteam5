@@ -109,6 +109,7 @@
     <Content Include="app\templates\app\base.html" />
     <Content Include="app\templates\app\signup.html" />
     <Content Include="app\templates\app\fullcalendar.html" />
+    <Content Include="app\templates\site_base.html" />
     <Content Include="bower.json" />
     <Content Include="components\bower_components\bootstrap\.bower.json" />
     <Content Include="components\bower_components\bootstrap\bower.json" />

@@ -10,6 +10,7 @@ PROJECT_ROOT = path.dirname(path.abspath(path.dirname(__file__)))
 
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
+AUTH_USER_MODEL = 'app.CustomUser'
 
 ALLOWED_HOSTS = (
     'localhost',
