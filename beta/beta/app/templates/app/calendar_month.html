@@ -1,4 +1,4 @@
-﻿{% extends "base.html" %}
+﻿{#{% extends "layout.html" %}
 {% load i18n calendarium_tags %}
 
 {% block main %}
@@ -13,7 +13,7 @@
         <a href="{% url "calendar_event_create" %}">{% trans "Create new event" %}</a>
     {% endif %}
 </form>
-<table class="table" id="calendar-month">
+<table class="table" id="calendar-month">a
     <tr>
         <th></th>
         {% for weekday in weekdays %}
@@ -47,4 +47,4 @@ href="{% url 'calendar_occurrence_detail' pk=occurrence.event.pk year=occurrence
     {% endfor %}
 </table>
 {% render_upcoming_events 5 current_category %}
-{% endblock %}
+{% endblock %}#}

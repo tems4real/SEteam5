@@ -55,7 +55,6 @@
     <Folder Include="beta\" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="app\templates\app\calendar_month.html" />
     <Content Include="app\templates\app\signup.html" />
     <Content Include="db.sqlite3" />
     <Content Include="requirements-calendarium.txt" />
