@@ -6,6 +6,7 @@
     <RootNamespace>beta</RootNamespace>
     <InterpreterId>{9a7a9026-48c1-4688-9d5d-e5699d47d074}</InterpreterId>
     <InterpreterVersion>2.7</InterpreterVersion>
+    <NameOfLastUsedPublishProfile>impactmeasurement</NameOfLastUsedPublishProfile>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -42,6 +43,7 @@
     <Compile Include="beta\settings.py" />
     <Compile Include="beta\urls.py" />
     <Compile Include="beta\wsgi.py" />
+    <Compile Include="runtests.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
@@ -328,6 +330,7 @@
     <Content Include="components\bower_components\jquery\src\var\toString.js" />
     <Content Include="components\bower_components\jquery\src\wrap.js" />
     <Content Include="db.sqlite3" />
+    <None Include="impactmeasurement.pubxml" />
     <Content Include="requirements.txt" />
     <Content Include="app\samples.json" />
     <Content Include="app\templates\app\details.html" />
